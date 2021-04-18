@@ -13,7 +13,8 @@ function generateArtPiece() {
   return {
     id: faker.datatype.uuid(),
     title: faker.lorem.words(2),
-    desc: faker.lorem.words(25)
+    desc: faker.lorem.words(25),
+    image: faker.image.animals()
   }
 }
 
