@@ -16,6 +16,7 @@ function generateArtPiece() {
     desc: faker.lorem.words(50),
     excerpt: faker.lorem.words(10),
     image: 'https://placeimg.com/640/480/animals',
+    altImage: 'https://placeimg.com/640/480/city',
     likes: faker.datatype.number(15)
   }
 }
