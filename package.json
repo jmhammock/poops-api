@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "populate": "node ./scripts/populateDb.mjs"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "faker": "^5.5.3"
+    "start": "func start",
+    "dev": "func start --verbose",
+    "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
     "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
   }
 }
